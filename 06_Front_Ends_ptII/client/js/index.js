@@ -48,7 +48,7 @@ $(document).ready(function(){
                             currentMtnLng = mountain.coords.lng;
                             currentMtnName = mountain.name;
     
-                            $('#mtnImg').attr('src', 'http://www.outdoors.org/wp-content/uploads/2017/10/' + mountain.img);
+                            $('#mtnImg').attr('src', 'https://www.outdoors.org/wp-content/uploads/2017/10/' + mountain.img);
                             $('#mtnName').html(mountain.name);
                             $('#mtnElev').html(parseInt(mountain.elevation).format());
                             $('#mtnDiff').html(mountain.effort);

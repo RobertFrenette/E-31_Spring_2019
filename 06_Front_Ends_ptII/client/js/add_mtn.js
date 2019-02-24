@@ -99,7 +99,7 @@ $(document).ready(function(){
 
   $('#mtnImagePreview').on('change', () => {
     if ($('#mtnImagePreview').prop('checked')) {
-      let imgSrcUrlPrefix = 'http://www.outdoors.org/wp-content/uploads/2017/10/';
+      let imgSrcUrlPrefix = 'https://www.outdoors.org/wp-content/uploads/2017/10/';
       let imgSrcUrl = imgSrcUrlPrefix + $('#mtnImage').val();
       $('#mtnImg').attr("src", imgSrcUrl);
       $('#mtnImg').show();

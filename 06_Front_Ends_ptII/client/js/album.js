@@ -28,7 +28,7 @@ $(document).ready(function(){
 
               let cardImg  =  document.createElement('img');
               cardImg.className = "card-img-top smMtnImg";
-              cardImg.src = 'http://www.outdoors.org/wp-content/uploads/2017/10/' + mountain.img;
+              cardImg.src = 'https://www.outdoors.org/wp-content/uploads/2017/10/' + mountain.img;
 
               let cardBody =  document.createElement('div');
               cardBody.className = "card-body";
