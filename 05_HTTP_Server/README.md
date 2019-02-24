@@ -22,9 +22,9 @@ In your working dir, create the following files
 
 View the files in the demo dir for code.
 
-### Execute in Terminal
+### Execute (Debug mode) in Terminal
 ```
-$ nodemon server
+$ nodemon --inspect server
 [nodemon] 1.14.3
 [nodemon] to restart at any time, enter `rs`
 [nodemon] watching: *.*
@@ -34,6 +34,11 @@ $ nodemon server
 ### Launch in Browser (or makes GET request  in Postman)
 [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
+
+### Debug view
+
+
+![Debug Console](img/debug.png?raw=true "Debug Console")
 
 ## Create new App 
 
