@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  body
+    div.container
+      <!-- Start Header -->
+      header.header.clearfix
+        <!-- Start Nav -->
+        nav
+          <a class="navbar-brand" href="/">Home</a>
+          ul.nav.nav-pills.float-right
+
+      <!-- Start Main -->
+      main.role('main')
+        <!-- Start Jumbotron -->
+        div.jumbotron
+          .row
+            .col-md-6.col-md-offset-3
+              h1.display-4.m-b-2 Login
+
+              form(method='POST' action='/users/dashboard')
+                div.form-group
+                  label(for='username') UserName:
+                  input#username.form-control(type='text', placeholder='UserName' name='username' required autofocus)
+                div.form-group
+                  label(for='password') Password:
+                  input#password.form-control(type='password' placeholder='password' name='password' required)
+                button.btn.btn-primary(type='submit') Login
+
+      footer.footer.text-right
+        <p>&copy; R.M.Frenette 2018</p>

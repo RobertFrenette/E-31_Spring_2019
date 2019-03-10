@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  body
+    div.container
+      <!-- Start Header -->
+      header.header.clearfix
+        <!-- Start Nav -->
+        nav
+          <a class="navbar-brand" href="/">Home</a>
+          ul.nav.nav-pills.float-right
+            li.nav-item
+              <a class="nav-link" id="indexPage" href="/">Logout</a>
+
+      <!-- Start Main -->
+      main.role('main')
+        <!-- Start Jumbotron -->
+        div.jumbotron
+          .row
+            .col-md-8
+              h1.display-4.m-b-2 Dashboard
+
+          .row
+            .col-md-12
+              image(src="/img/1.jpg") 
+              image(src="/img/2.jpg") 
+              image(src="/img/3.jpg")
+
+      footer.footer.text-right
+        <p>&copy; R.M.Frenette 2018</p>
+        p app.locals.secretvalue = #{secretvalue}
+        p mysecretvalue = #{mysecretvalue}
