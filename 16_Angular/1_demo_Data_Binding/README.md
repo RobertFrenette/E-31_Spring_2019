@@ -179,10 +179,10 @@ $
   addNewMountains: boolean = false;
 ```
 
-![AngularJS](img/img_1.png?raw=true "AngularJS")
+![Angular](img/img_1.png?raw=true "Angular")
 
 
-![AngularJS](img/img_2.png?raw=true "AngularJS")
+![Angular](img/img_2.png?raw=true "Angular")
 
 
 NOTE: Although the button is enabled, there is no action to be taken.
