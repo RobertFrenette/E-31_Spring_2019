@@ -1,4 +1,4 @@
-# HTTP Connect Middelware 
+# HTTP Connect Middleware 
 In this Section we'll look at Connect Middleware.
 
 ## Setup
