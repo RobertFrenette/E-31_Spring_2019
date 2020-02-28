@@ -23,7 +23,7 @@ $(document).ready(function () {
       "password": $('#inputPassword').val()
     };
 
-    $.post("http://localhost:3000/", JSON.stringify(data), function () {
+    $.post("http://127.0.0.1:3000/", JSON.stringify(data), function () {
     })
       .done(function (res) {
         $('#msg').removeClass('alert-danger');
